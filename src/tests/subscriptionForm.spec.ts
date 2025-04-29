@@ -45,32 +45,4 @@ test.describe('Subscription Form Tests', () => {
         logger.step('Проверка неуспешной отправки формы');
         await Assertions.formIsNotSubmitted(subscriptionForm.formStatus);
     });
-
-    // test('Negative Case - Empty required fields', async () => {
-    //     logger.step('Заполнение формы с пустыми обязательными полями');
-    //     await subscriptionForm.fillForm({
-    //         ...FORM_DATA.INVALID,
-    //         email: 'test@example.com'
-    //     });
-        
-    //     logger.step('Отправка формы');
-    //     await subscriptionForm.submitForm();
-        
-    //     logger.step('Проверка неуспешной отправки формы');
-    //     await Assertions.formIsNotSubmitted(subscriptionForm.formStatus);
-    // });
-
-    // test('Negative Case - No withdrawal options selected', async () => {
-    //     logger.step('Заполнение формы без выбранных опций вывода средств');
-    //     await subscriptionForm.fillForm({
-    //         ...FORM_DATA.VALID,
-    //         withdrawOptions: []
-    //     });
-        
-    //     logger.step('Отправка формы');
-    //     await subscriptionForm.submitForm();
-        
-    //     logger.step('Проверка неуспешной отправки формы');
-    //     await Assertions.formIsNotSubmitted(subscriptionForm.formStatus);
-    // });
 });             

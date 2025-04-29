@@ -1,0 +1,5 @@
+[Happy Path - Successful form submission] STEP: Навигация на главную страницу
+[Happy Path - Successful form submission] STEP: Заполнение формы валидными данными
+[Happy Path - Successful form submission] STEP: Проверка валидности email
+[Happy Path - Successful form submission] STEP: Отправка формы
+[Happy Path - Successful form submission] STEP: Проверка успешной отправки формы

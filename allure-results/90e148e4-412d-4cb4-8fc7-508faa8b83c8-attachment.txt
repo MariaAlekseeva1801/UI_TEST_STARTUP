@@ -1,0 +1,6 @@
+[Negative Case - Invalid email format] STEP: Навигация на главную страницу
+[Negative Case - Invalid email format] STEP: Заполнение формы с невалидным email
+[Negative Case - Invalid email format] STEP: Активация валидации email
+[Negative Case - Invalid email format] STEP: Проверка невалидности email
+[Negative Case - Invalid email format] STEP: Отправка формы
+[Negative Case - Invalid email format] STEP: Проверка неуспешной отправки формы
